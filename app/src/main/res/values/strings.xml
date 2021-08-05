@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Goama Admob Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ad_unit_id">/22022010600/App_test</string>
+</resources>

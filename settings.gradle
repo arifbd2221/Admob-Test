@@ -1,0 +1,2 @@
+rootProject.name = "Goama Admob Test"
+include ':app'

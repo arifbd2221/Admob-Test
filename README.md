@@ -1,6 +1,6 @@
 # Admob-Test
 
-# In this project ad manager ad loads over the webview, and the ad displaying callback is passed from the webview through javascript interface.
+### In this project ad manager ad loads over the webview, and the ad displaying callback is passed from the webview through javascript interface.
 
 ## admanager/admob integration part has been taken from
 [goto github.com/googleads/googleads-mobile-android-examples/tree/master/java](https://github.com/googleads/googleads-mobile-android-examples/tree/master/java)

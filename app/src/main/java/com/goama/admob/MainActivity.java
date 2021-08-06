@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private AdManagerAdView adView;
     private AdManagerInterstitialAd interstitialAd;
     private boolean adIsLoading;
-    private static final String interstitialAdunit = "ca-app-pub-7572720877415603/6353486639";
+    /* Sample adunit for admob */
+    private static final String interstitialAdunit = "ca-app-pub-3940256099942544/1033173712";
     String TAG = "MainActivity";
     Context context;
     WebView mWebView;
@@ -110,6 +111,9 @@ public class MainActivity extends AppCompatActivity {
     public class WebviewInterface {
         @JavascriptInterface
         public void javaMethod(String val) {
+            /*
+                This is the method which is required to be exposed to the client
+             */
             Log.i(TAG, val);
             runOnUiThread(new Runnable() {
                 @Override

@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private AdManagerAdView adView;
     private AdManagerInterstitialAd interstitialAd;
     private boolean adIsLoading;
-    /* Sample adunit for admob */
-    private static final String interstitialAdunit = "ca-app-pub-3940256099942544/1033173712";
+    /* Sample adunit for admob/admanager */
+    private static final String interstitialAdunit = "ca-app-pub-7572720877415603/6353486639";
     String TAG = "MainActivity";
     Context context;
     WebView mWebView;
@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 mWebView.loadUrl(ENROLLMENT_URL);
             }
         });
-
 
         MobileAds.setRequestConfiguration(
                 new RequestConfiguration.Builder()
